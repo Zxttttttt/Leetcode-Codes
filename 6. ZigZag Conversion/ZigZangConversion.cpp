@@ -1,3 +1,10 @@
+//Question 6 on Leetcode
+//Solution:   k lines i start from 0
+//            first line  0+(2k-2)*i
+//            last line k-1+(2k-2)*i
+//            inner lines linenum+(2k-2)*i and linenum+(2k-2)-2*linenum+(2k-2)*i=(2k-2)*(i+1)-linenum
+
+
 class Solution {
 public:
     string convert(string s, int numRows) {
